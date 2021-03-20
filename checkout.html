@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="x-UA-Compatible" content="ie=edhe">        
+    <title>Document</title>
+    <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="frontend/libraries/xzoom/xzoom.css">
+    <link rel="stylesheet" href="frontend/libraries/combined/css/gijgo.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="frontend/styles/main.css">
+</head>
+<body>
+  <header>
+    <div class="main-top-header">
+      <div class="top-header">
+        <div class="logo">
+          <img src="frontend/images/your-logo (3).png" alt="logo_nomads">
+        </div>
+        <div class="menu">
+          <ul>
+            <li>
+              <span class="lnr lnr-map-marker"></span>
+              Bekasi, Indonesia
+            </li>
+            <li>
+              <span class="lnr lnr-clock"></span>
+              Mon - Sat 8.00 - 18.00
+            </li>
+            <li>
+              <span class="lnr lnr-phone-handset"></span>
+              0851-5607-6908
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <main>
+      <section class="section-details-header"></section>
+      <section class="section-details-content">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <ol class="breadcrumb">
+                <li>
+                  <a href="#">Home</a>
+                </li>
+                <li>
+                  <a href="#"><span class="lnr lnr-chevron-right"></span>Paket Travel</a>
+                </li>
+                <li class="breadcrumb-item active">
+                  <span class="lnr lnr-chevron-right"></span>
+                  Checkout
+                </li>
+              </ol>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-8 pl-lg-0">
+              <div class="card card-details">
+                <h1>Siapa yang akan pergi?</h1>
+                <p>Trip to Pagoda, Bali, Indonesia</p>
+                <div class="attendee">
+                  <table class="table table-responsive-sm text-center">
+                    <thead>
+                      <tr>
+                        <td>Gambar</td>
+                        <td>Nama</td>
+                        <td>Nationality</td>
+                        <td>Visa</td>
+                        <td>Passport</td>
+                        <td></td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <img src="frontend/images/avatar-1.png" height="60">
+                        </td>
+                        <td class="align-middle">
+                          Fadillah Nur Faqih
+                        </td>
+                        <td class="align-middle">
+                          Ind
+                        </td>
+                        <td class="align-middle">
+                          N/A
+                        </td>
+                        <td class="align-middle">
+                          Active
+                        </td>
+                        <td class="align-middle">
+                          <a href="#">
+                            <i class="fa fa-times" aria-hidden="true"></i>
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img src="frontend/images/avatar-1.png" height="60">
+                        </td>
+                        <td class="align-middle">
+                          Fadillah Nur Faqih
+                        </td>
+                        <td class="align-middle">
+                          Ind
+                        </td>
+                        <td class="align-middle">
+                          N/A
+                        </td>
+                        <td class="align-middle">
+                          Active
+                        </td>
+                        <td class="align-middle">
+                          <a href="#">
+                            <i class="fa fa-times" aria-hidden="true"></i>
+                          </a>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="member mt-3">
+                  <h2>Tambah Member</h2>
+                  <form class="form-inline">
+                    <label for="inputUsername" class="sr-only">Name</label>
+                    <input type="text" class="form-control mb-2 mr-sm-2" id="inputUsername" name="inputUsername" placeholder="Username">
+                    <label for="inputvisa" class="sr-only">Visa</label>
+                    <select name="inputvisa" id="inputvisa" class="custom-select mb-2 mr-sm-2">
+                      <option value="VISA" selected>VISA</option>
+                      <option value="VISA">30 Hari</option>
+                      <option value="VISA">N/A</option>
+                    </select> 
+
+                    <label for="doepassport" class="sr-only">DOE Passport</label>
+                    <div class="input-group mb-2 mr-sm-2">
+                      <input type="text" class="form-control datepicker" id="doepassport" placeholder="DOE Passport">
+                    </div>
+                    <button type="submit" class="btn btn-add-now mb-2 px-4">Tambah</button>
+                  </form>
+                  <h3 class="mt-2 mb-0">Note</h3>
+                  <p class="diisclaimer mb-0">You are only able to invite member that has registered in Traveldil</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card card-checkout card-right">
+                <div class="container">
+                  <h2>Informasi Checkout</h2>
+                  <table class="trip-informasi">
+                    <tr>
+                      <th width="50%">Durasi</th>
+                      <td width="50%">4D 3N</td>
+                    </tr>
+                    <tr>
+                      <th width="50%">Tipe</th>
+                      <td width="50%">Open Trip</td>
+                    </tr><tr>
+                      <th width="50%">Harga</th>
+                      <td width="50%">Rp 8.000.000 / Orang</td>
+                    </tr>
+                  </table>
+                  <hr />
+                  <h2>Payment Intructions</h2>
+                  <p class="payment-intruction">Please complete your payment before to continue the wonderful trip</p>
+                  <div class="bank">
+                    <div class="bank-item pb-3">
+                      <i class="fa fa-id-card" aria-hidden="true"></i>
+                      <div class="description">
+                        <h3>PT Traveldil Id</h3>
+                        <p>0851-5607-6908 <br> Bank Mandiri</p>
+                      </div>
+                      <div class="clearfix"></div>
+                    </div>
+                    <div class="bank-item pb-3">
+                      <i class="fa fa-id-card" aria-hidden="true"></i>
+                      <div class="description">
+                        <h3>PT Traveldil Id</h3>
+                        <p>0851-5607-6908 <br> Bank Mandiri</p>
+                      </div>
+                      <div class="clearfix"></div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="payment-container">
+              <a href="#" class="btn btn-block btn-join-now mt-1 py-3">
+                Saya telah melakukan pembayaran</a>
+            </div>
+            <div class="text-center mt-3">
+              <a href="details.html" class="text-muted">
+                Batal Booking</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </header>
+
+  <footer>
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 col-xs-12 segment-one">
+            <h5>KONTAK</h3>
+            <br>
+            <P>Kami siap melayani kemanapun dan <br> kapanpun anda berencana untuk liburan. <br> Jangan ragu untuk mengubungi kami</P>
+            <br>
+            <ul class="list-unstyled">
+              <li>
+                <span class="lnr lnr-map-marker"></span>
+                Bekasi, Indonesia
+              </li>
+              <li>
+                <span class="lnr lnr-phone-handset"></span>
+                0851-5607-6908
+              </li>
+              <li>
+                <span class="lnr lnr-envelope"></span>
+                fnurfaqih@gmail.com
+              </li>
+            </ul>
+            <div class="social-menu">
+              <ul>
+                <li>
+                  <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                </li>
+              </ul>
+          </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12 segment-two">
+            <h5>FITUR</h5>
+            <br>
+            <ul>
+              <li><a href="#"><span class="lnr lnr-chevron-right"></span>Ulasan</a></li>
+              <li><a href="#"><span class="lnr lnr-chevron-right"></span>Komunitas</a></li>
+              <li><a href="#"><span class="lnr lnr-chevron-right"></span>Social Media</a></li>
+              <li><a href="#"><span class="lnr lnr-chevron-right"></span>Afiliasi</a></li>  
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12 segment-two">
+            <h5>AKUN</h5>
+            <br>
+            <ul>
+              <li><a href="#"><span class="lnr lnr-chevron-right"></span>Refund</a></li>
+              <li><a href="#"><span class="lnr lnr-chevron-right"></span>Keamanan</a></li>
+              <li><a href="#"><span class="lnr lnr-chevron-right"></span>Hadiah</a></li>  
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12 segment-two">
+            <h5>PERUSAHAAN</h5>
+            <br>
+            <ul>
+              <li><a href="#"><span class="lnr lnr-chevron-right"></span>Karir</a></li>
+              <li><a href="#"><span class="lnr lnr-chevron-right"></span>Pusat Bantuan</a></li>
+              <li><a href="#"><span class="lnr lnr-chevron-right"></span>Media</a></li>  
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom-text">
+      <p>&copy;2020 Copy Right Traveldil - All Rights Reserved - Made In Bekasi</p>
+    </div>
+  </footer>
+  
+
+  
+
+    
+          
+    
+    
+  <script src="frontend/libraries/jquery/jquery-3.5.1.min.js"></script>
+  <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+  <script src="frontend/libraries/xzoom/xzoom.min.js"></script>
+  <script src="frontend/libraries/combined/js/gijgo.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('.xzoom, xzoom-gallery').xzoom({
+        zoomWidth: 500,
+        tittle: false,
+        tint:'#333',
+        Xoffset: 15
+      });
+
+      $('.datepicker').datepicker({
+        uiLibrary: 'bootstrap4',
+        icons: {
+          rightIcon: '<img src="frontend/images/ic_date.png" />'
+        }
+      })
+    });
+  </script>
+    
+
+    
+</body>
+</html>

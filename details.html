@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="x-UA-Compatible" content="ie=edhe">        
+    <title>Document</title>
+    <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="frontend/libraries/xzoom/xzoom.css">
+    <link rel="stylesheet" href="frontend/libraries/combined/css/gijgo.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="frontend/styles/main.css">
+</head>
+<body>
+  <header>
+    <div class="main-top-header">
+      <div class="top-header">
+        <div class="logo">
+          <a href="index.html"><img src="frontend/images/your-logo (3).png" alt="logo_nomads"></a>
+        </div>
+        <div class="menu">
+          <ul>
+            <li>
+              <span class="lnr lnr-map-marker"></span>
+              Bekasi, Indonesia
+            </li>
+            <li>
+              <span class="lnr lnr-clock"></span>
+              Mon - Sat 8.00 - 18.00
+            </li>
+            <li>
+              <span class="lnr lnr-phone-handset"></span>
+              0851-5607-6908
+            </li>
+            <a href="#" class="btn">
+              <button type="button" class="btn btn-primary">
+                Log in / Daftar
+              </button>
+            </a>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #BDBDBD;">
+      <div class="icon">
+        <a class="navbar-brand pl-4" href="#"><span class="lnr lnr-home"></span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div class="navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link pl-4" href="#">SCHEDULE <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pl-4" href="#">PLACES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pl-4" href="#">HOTEL</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle pl-4" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              TOUR
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          <li class="nav-item">
+            <a class="nav-link pl-4" href="#">CRUISE</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle pl-4" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              SERVICES
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Visa</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Passport</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle pl-4" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              TRANSPORTASI
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Tiket Pesawat</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Tiket Kereta Api</a>
+            </div>
+
+            <form class="form-inline d-sm-block d-md-none">
+              <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">
+                Masuk
+              </button>
+            </form>
+        </ul>
+      </div>
+    </nav>
+    
+    <main>
+      <section class="section-details-header"></section>
+      <section class="section-details-content">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <ol class="breadcrumb">
+                <li>
+                  <a href="#">Home</a>
+                </li>
+                <li>
+                  <a href="#"><span class="lnr lnr-chevron-right"></span>Paket Travel</a>
+                </li>
+                <li>
+                  <span class="lnr lnr-chevron-right"></span>
+                  Pagoda - Bali
+                </li>
+              </ol>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-8 pl-lg-0">
+              <div class="card card-details">
+                <h1>Pagoda, Bali</h1>
+                <p>Republic Indonesia Raya</p>
+                <div class="gallery">
+                  <div class="xzoom-container">
+                    <img src="frontend/images/preview1.jpg" class="xzoom" id="xzoom-default" xoriginal="frontend/images/preview1.jpg">
+                  </div>
+                  <div class="xzoom-thumbs">
+                    <a href="frontend/images/preview1.jpg">
+                      <img src="frontend/images/preview1.jpg" class="xzoom-gallery" width="128" xpreview="frontend/images/preview2.jpg">
+                    </a>
+                    <a href="frontend/images/preview1.jpg">
+                      <img src="frontend/images/preview1.jpg" class="xzoom-gallery" width="128" xpreview="frontend/images/preview2.jpg">
+                    </a>
+                    <a href="frontend/images/preview1.jpg">
+                      <img src="frontend/images/preview1.jpg" class="xzoom-gallery" width="128" xpreview="frontend/images/preview2.jpg">
+                    </a>
+                    <a href="frontend/images/preview1.jpg">
+                      <img src="frontend/images/preview1.jpg" class="xzoom-gallery" width="128" xpreview="frontend/images/preview2.jpg">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <section class="wrapper">
+                <ul class="tabs">
+                  <li><a href="#tab1">Pestaña 1</a></li>
+                  <li><a href="#tab2">Pestaña 2</a></li>
+                  <li><a href="#tab3">Pestaña 3</a></li>
+                </ul>
+                <div class="clr"></div>
+                <section class="block">
+                    <article id="tab1">
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero
+                            sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti. Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.</p>
+                    </article>
+                    <article id="tab2">
+                        <p>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem
+                            at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.</p>
+                    </article>
+                    <article id="tab3">
+                        <p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu pulvinar risus, vitae facilisis libero dolor a purus. Sed vel lacus. Mauris nibh felis, adipiscing varius, adipiscing in, lacinia vel,
+                            tellus. Suspendisse ac urna. Etiam pellentesque mauris ut lectus. Nunc tellus ante, mattis eget, gravida vitae, ultricies ac, leo. Integer leo pede, ornare a, lacinia eu, vulputate vel, nisl.</p>
+                    </article>
+                </section>
+              </section>
+              <div class="card card-sosmed">
+                <div class="features row">
+                  <div class="col-md-4">
+                    <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                  </div>
+                  <div class="col-md-4 border-left">
+                    <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                  </div>
+                  <div class="col-md-4 border-left">
+                    <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card card-detail card-right">
+                <div class="header-card">
+                  <p>Price: Rp.5.000.000</p>
+                </div>
+                <div class="booking">
+                  <h2>Booking The Trip</h2>
+                </div>
+                <div class="input-informasi">
+                  <form class="form">
+                    <label for="inputUsername" class="sr-only">Nama</label>
+                    <input type="text" class="form-control mb-2 mr-sm-2" id="inputUsername" name="inputUsername" placeholder="Username">
+                    <label for="email" class="sr-only">Email</label>
+                    <input type="text" class="form-control mb-2 mr-sm-2" id="email" name="email" placeholder="Email">
+                    <label for="phone" class="sr-only">Nomor Telepon</label>
+                    <input type="text" class="form-control mb-2 mr-sm-2" id="phone" name="phone" placeholder="Nomor Telepon">
+                    <label for="date" class="sr-only">Tanggal</label>
+                    <div class="input-group mb-2 mr-sm-2">
+                      <input type="text" class="form-control datepicker" id="date" name="date" placeholder="Tanggal Sekarang">
+                    </div>
+                  </form>
+                </div>
+                <div class="form-group">
+                  <div class="item-field-tour-booking">
+                    <div class="input-number-ticket">
+                      <input type="number" name="number_ticker" value="1" min="1" max class="field-travel-booking">
+                      &nbsp;
+                      <span class="label">Jumlah tiket</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="join-container">
+                  <a href="checkout.html" class="btn btn-block btn-join-now mt-1 py-3" type="submit">Gabung Sekarang</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </header>
+
+  <footer>
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 col-xs-12 segment-one">
+            <h5>KONTAK</h3>
+            <br>
+            <P>Kami siap melayani kemanapun dan <br> kapanpun anda berencana untuk liburan. <br> Jangan ragu untuk mengubungi kami</P>
+            <br>
+            <ul class="list-unstyled">
+              <li>
+                <span class="lnr lnr-map-marker"></span>
+                Bekasi, Indonesia
+              </li>
+              <li>
+                <span class="lnr lnr-phone-handset"></span>
+                0851-5607-6908
+              </li>
+              <li>
+                <span class="lnr lnr-envelope"></span>
+                fnurfaqih@gmail.com
+              </li>
+            </ul>
+            <div class="social-menu">
+              <ul>
+                <li>
+                  <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                </li>
+              </ul>
+          </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12 segment-two">
+            <h5>FITUR</h5>
+            <br>
+            <ul>
+              <li><a href="#"><span class="lnr lnr-chevron-right"></span>Ulasan</a></li>
+              <li><a href="#"><span class="lnr lnr-chevron-right"></span>Komunitas</a></li>
+              <li><a href="#"><span class="lnr lnr-chevron-right"></span>Social Media</a></li>
+              <li><a href="#"><span class="lnr lnr-chevron-right"></span>Afiliasi</a></li>  
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12 segment-two">
+            <h5>AKUN</h5>
+            <br>
+            <ul>
+              <li><a href="#"><span class="lnr lnr-chevron-right"></span>Refund</a></li>
+              <li><a href="#"><span class="lnr lnr-chevron-right"></span>Keamanan</a></li>
+              <li><a href="#"><span class="lnr lnr-chevron-right"></span>Hadiah</a></li>  
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12 segment-two">
+            <h5>PERUSAHAAN</h5>
+            <br>
+            <ul>
+              <li><a href="#"><span class="lnr lnr-chevron-right"></span>Karir</a></li>
+              <li><a href="#"><span class="lnr lnr-chevron-right"></span>Pusat Bantuan</a></li>
+              <li><a href="#"><span class="lnr lnr-chevron-right"></span>Media</a></li>  
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom-text">
+      <p>&copy;2020 Copy Right Traveldil - All Rights Reserved - Made In Bekasi</p>
+    </div>
+  </footer>
+  
+
+  
+
+    
+          
+    
+    
+  <script src="frontend/libraries/jquery/jquery-3.5.1.min.js"></script>
+  <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+  <script src="frontend/libraries/xzoom/xzoom.min.js"></script>
+  <script src="frontend/libraries/combined/js/gijgo.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('.xzoom, xzoom-gallery').xzoom({
+        zoomWidth: 500,
+        tittle: false,
+        tint:'#333',
+        Xoffset: 15
+      });
+
+      $('.datepicker').datepicker({
+        uiLibrary: 'bootstrap4',
+        icons: {
+          rightIcon: '<img src="frontend/images/ic_date.png" />'
+        }
+      })
+    });
+    $(function() {
+            $("ul.tabs li:first").addClass("active");
+            $(".block article").hide();
+            $(".block article:first").show();
+            $("ul.tabs li").on("click", function() {
+                $("ul.tabs li").removeClass("active");
+                $(this).addClass("active");
+                $(".block article").hide();
+                var activeTab = $(this).find("a").attr("href");
+                $(activeTab).show();
+                return false;
+            });
+        });
+  </script>
+    
+
+    
+</body>
+</html>
